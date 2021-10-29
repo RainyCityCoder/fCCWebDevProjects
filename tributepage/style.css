@@ -1,0 +1,82 @@
+#main {
+  font-family: ubuntu;
+  background-color: rgb(108, 157, 197);
+}
+
+header {
+  text-align:center;
+  background-color:rgb(28, 53, 73);
+  padding: 0.1vmin;
+  color:beige;
+}
+
+#img-div {
+  margin:auto;
+  text-align:center;
+  background-color: beige;
+  padding: 10vmin;
+  max-height: 45vw;
+  width:auto;
+}
+
+#image {
+  max-height: 35vw;
+  width:auto;
+  justify-content:center;
+}
+
+#img-caption {
+  font-size: 14px;
+  font-family:ubuntu;
+  color: #600060;
+}
+
+#tribute-info {
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+  width: 60vw;
+  height:fit-content;
+  padding: 1vw;
+  margin: auto;
+  display:grid;
+  justify-content:center;
+  grid-template-columns:repeat(auto-fit, minmax(10vw,25vw));
+  grid-template-rows:1fr;
+  grid-gap:5vw;
+  /*grid-template-areas:
+    "flow-matic cobol"
+    "harvard-1 univac-1"; */
+}
+
+.info-style {
+  text-align:center;
+  align-self:start;
+  color:beige;
+  background-color:rgb(28, 53, 73);
+}
+
+/*#flow-matic {
+  grid-area:flow-matic;  
+}
+#cobol {
+  grid-area:cobol;
+}
+#harvard-1 {
+  grid-area:harvard-1;
+}
+#univac-1 {
+  grid-area:univac-1;
+}*/
+
+#quote {
+  margin:15px;
+  text-align:center;
+  color: #600060;
+}
+
+#tribute-link {
+  margin:15px;
+  text-align:center;
+  color: #600060;
+}
