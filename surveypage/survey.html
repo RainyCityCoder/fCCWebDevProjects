@@ -1,0 +1,134 @@
+<!doctype html>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<html>
+    <head>
+        <title>Chris's Personal Webpage</title>
+    </head>
+
+    <body>
+        <main id="main">
+          <header>
+            <h1>Survey Form</h1>
+            <p id="description">Please fill out to the best of your ability</p>
+          </header>
+
+          <form action="post" target="" id="survey-form">
+            
+            <div class="form">
+              <label id="name-label">Name</label>
+              <input id="name" 
+                     type="text" 
+                     placeholder="Your Name" 
+                     required
+                     />
+            </div>
+            
+            <div class="form">
+              <label id="email-label">Email</label>
+              <input id="email" 
+                     type="email" 
+                     placeholder="Your Email" 
+                     required
+                     />
+            </div>
+            
+            <div class="form">
+              <p>Do you currently have a valid driver's license?</p>
+              <input type="radio" 
+                     id="yes"
+                     name="license"
+                     value="yes">
+                <label for="yes">Yes</label>
+                  <br>
+              <input type="radio"
+                     id="no"
+                     name="license"
+                     value="no">
+                <label for="no">No</label>
+            </div>
+            
+            <br>
+            
+            <div class="form">
+              <p>Which of the following are you licensed to operate?</p>
+              <p>(You may select all that apply)</p>
+              <input type="checkbox"
+                     id="motorcycle"
+                     name="license-type"
+                     value="motorcycle">
+                <label for="motorcycle">Motorcycle (or similar) </label><br>
+              <input type="checkbox"
+                     id="standard"
+                     name="license-type"
+                     value="standard">
+                <label for="standard">Car/Light Truck</label><br>
+              <input type="checkbox"
+                     id="cdl"
+                     name="license-type"
+                     value="cdl">
+                <label for="cdl">CDL (Commercial truck)</label><br>
+              <input type="checkbox"
+                     id="hazmat"
+                     name="license-type"
+                     value="hazmat">
+                <label for="hazmat">Hazmat</label><br>
+            </div>
+            
+            <br>
+            
+            <div class="form">
+              <label id="number-label">What was the model year of your first car?</label>
+              <input id="number" 
+                     type="number" 
+                     placeholder="1918? 1972? 2036?" 
+                     min="1769"
+                    max="999999"
+                     />
+            </div>
+            
+            <div class="form">
+              <p>What color was your first car?</p>
+              <select id="dropdown">
+                <option selected value="rust">No Paint, Only Rust</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="silver">Silver/Gray</option>
+                <option value="two-tone">Two-Tone</option>
+                <option value="multi">Multiple Colors</option>
+                <option value="not-listed">Not Listed</option>
+              </select>
+              
+            <div class="form">
+              <p>What's your favorite car-based, or truck-based, memory or story?</p>
+              <textarea type="text"
+                        name="story"
+                        placeholder="Tell us your story"></textarea>
+                
+            <div class="form">
+              <p>All done?</p>
+              <button type="submit" 
+                      id="submit"
+                      name="submit">
+                <label for="submit">Share with us!</label>
+                
+                
+          </form>
+                
+                
+        </main>        
+    </body>
+
+
+
+
+
+
+
+</html>
