@@ -1,0 +1,135 @@
+main {
+  font-family:verdana;
+  color:darkblue;
+}
+
+#container {
+  background-color:skyblue;
+  max-width:100vw;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin:auto;
+}
+
+#logo-title-container {
+  display:flex;
+  flex-direction:row;
+}
+
+#logo {
+  height:4vmax;
+  width:auto;
+}
+
+#header {
+  background-color:pink;
+  width:auto;
+  height:auto;
+}
+
+#nav-bar {
+  width:auto;
+  flex-direction:row;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.nav-link {
+  padding:0 3vw;
+  flex-direction:row;
+}
+
+a.no-change:visited {
+  color:navyblue;
+}
+
+#details {
+  margin:0.6vw auto;
+  max-width:70vw;
+  display:flex;
+  flex-direction:row;
+}
+
+#genie-image {
+  max-width:34.5vw;
+  height:auto;
+  padding: 0.5vw;
+}
+
+#feature-list {
+  margin:auto;
+}
+
+.list-item {
+  margin:3vw 1vw;
+}
+
+
+#video {
+  margin:1vw auto 2vw auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#video-title {
+  font-weight:bold;
+}
+
+#teaser {
+  width:560px;
+  height:315px;
+}
+
+@media (max-width:1000px) {
+  #teaser {
+    width:392px;
+    height:189px;
+  }
+}
+
+#form {
+  text-align:center;
+  font-weight:bold;
+}
+
+#email {
+  display:block;
+  margin:0.7vw auto;
+}
+
+footer {
+  background-color:skyblue;
+  max-width:60vw;
+  margin:3% auto 0 auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+#limits {
+  font-size:small;
+}
+
+#company-info {
+  width:auto;
+  flex-direction:row;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.company-info {
+  background-color:darkgray;
+  padding:0 0.7vw;
+  flex-direction:row;
+}
+
+#copyright {
+  font-size:small;
+  justify-content:flex-end;
+}

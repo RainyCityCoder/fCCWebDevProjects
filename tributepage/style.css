@@ -1,6 +1,10 @@
-#main {
-  font-family: ubuntu;
+
+body {
   background-color: rgb(108, 157, 197);
+}
+
+#main {
+  font-family: ubuntu, sans-serif;
 }
 
 a:link {
@@ -37,7 +41,7 @@ header {
 
 #img-caption {
   font-size: 14px;
-  font-family:ubuntu;
+  font-family:ubuntu, sans-serif;
   color: #600060;
 }
 
@@ -48,8 +52,9 @@ header {
   margin: auto;
   display:grid;
   justify-content:center;
-  grid-template-columns:repeat(auto-fit, minmax(10vw,25vw));
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
   grid-template-rows:1fr;
+  /*grid-template-rows:repeat(auto-fit,minmax(300px,1fr)); <-This also works somehow*/
   grid-gap:2vw;
 }
 
@@ -59,6 +64,7 @@ header {
   color:beige;
   background-color:rgb(28, 53, 73);
   border-radius: 8px 8px 8px 8px;
+  padding:0.3vw 1vw 1vw 1vw;
 }
 
 #tribute-link {
