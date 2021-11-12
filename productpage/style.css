@@ -4,27 +4,30 @@ main {
 }
 
 #container {
-  background-color:skyblue;
-  max-width:100vw;
+  background: linear-gradient(90deg, white, skyblue);
+  width:99%;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   justify-content:space-between;
   margin:auto;
+  border-radius: 0px 8px 8px 0px;
+  position:sticky;
+  top:0px;
 }
 
 #logo-title-container {
   display:flex;
   flex-direction:row;
+  align-items:center;
 }
 
-#logo {
+#header-img {
   height:4vmax;
   width:auto;
 }
 
 #header {
-  background-color:pink;
   width:auto;
   height:auto;
 }
@@ -102,13 +105,14 @@ a.no-change:visited {
 }
 
 footer {
-  background-color:skyblue;
+  background: linear-gradient(90deg, white, skyblue);
   max-width:60vw;
   margin:3% auto 0 auto;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   justify-content:space-between;
+  border-radius: 0px 8px 8px 0px;
 }
 
 #limits {
@@ -124,7 +128,6 @@ footer {
 }
 
 .company-info {
-  background-color:darkgray;
   padding:0 0.7vw;
   flex-direction:row;
 }
