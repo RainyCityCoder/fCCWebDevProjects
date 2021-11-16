@@ -1,4 +1,3 @@
-
 body {
   background-color: rgb(108, 157, 197);
 }
@@ -34,8 +33,11 @@ header {
 }
 
 #image {
+  display:block;
+  margin:auto;
   max-height: 35vw;
   width:auto;
+  max-width:50%;
   justify-content:center;
 }
 
@@ -67,7 +69,7 @@ header {
   padding:0.3vw 1vw 1vw 1vw;
 }
 
-#tribute-link {
+#tribute-link-wrapper {
   margin:15px;
   text-align:center;
   color: #600060;

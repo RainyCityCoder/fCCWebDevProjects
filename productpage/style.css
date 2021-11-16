@@ -3,7 +3,7 @@ main {
   color:darkblue;
 }
 
-#container {
+#header {
   background: linear-gradient(90deg, white, skyblue);
   width:99%;
   display:flex;
@@ -27,7 +27,7 @@ main {
   width:auto;
 }
 
-#header {
+#title {
   width:auto;
   height:auto;
 }
@@ -40,12 +40,12 @@ main {
   align-items:center;
 }
 
-.nav-link {
+.nav-link-container {
   padding:0 3vw;
   flex-direction:row;
 }
 
-a.no-change:visited {
+a.nav-link:visited {
   color:navyblue;
 }
 
@@ -71,7 +71,7 @@ a.no-change:visited {
 }
 
 
-#video {
+#video-container {
   margin:1vw auto 2vw auto;
   display:flex;
   flex-direction:column;
@@ -82,7 +82,7 @@ a.no-change:visited {
   font-weight:bold;
 }
 
-#teaser {
+#video {
   width:560px;
   height:315px;
 }
