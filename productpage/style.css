@@ -1,4 +1,4 @@
-main {
+mmain {
   font-family:verdana;
   color:darkblue;
 }
@@ -45,8 +45,12 @@ main {
   flex-direction:row;
 }
 
-a.nav-link:visited {
-  color:navyblue;
+a {
+  color:darkblue;
+}
+
+a:visited {
+  color:blue;
 }
 
 #details {
