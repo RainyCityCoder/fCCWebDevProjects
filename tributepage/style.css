@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(108, 157, 197);
+}
+
+#main {
+  font-family: ubuntu, sans-serif;
+}
+
+a:link {
+  color:orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+header {
+  text-align:center;
+  background-color:rgb(28, 53, 73);
+  padding: 0.1vmin;
+  color:beige;
+  border-radius: 8px 8px 0px 0px;
+}
+
+#img-div {
+  margin:auto;
+  text-align:center;
+  background-color: beige;
+  padding: 10vmin;
+  max-height: 45vw;
+  width:auto;
+  border-radius: 0px 0px 8px 8px;
+}
+
+#image {
+  display:block;
+  margin:auto;
+  max-height: 35vw;
+  width:auto;
+  max-width:50%;
+  justify-content:center;
+}
+
+#img-caption {
+  font-size: 14px;
+  font-family:ubuntu, sans-serif;
+  color: #600060;
+}
+
+#tribute-info {
+  width: 60vw;
+  height:fit-content;
+  padding: 1vw;
+  margin: auto;
+  display:grid;
+  justify-content:center;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  grid-template-rows:1fr;
+  /*grid-template-rows:repeat(auto-fit,minmax(300px,1fr)); <-This also works somehow*/
+  grid-gap:2vw;
+}
+
+.info-style {
+  text-align:center;
+  align-self:start;
+  color:beige;
+  background-color:rgb(28, 53, 73);
+  border-radius: 8px 8px 8px 8px;
+  padding:0.3vw 1vw 1vw 1vw;
+}
+
+#tribute-link-wrapper {
+  margin:15px;
+  text-align:center;
+  color: #600060;
+}

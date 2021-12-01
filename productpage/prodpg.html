@@ -1,0 +1,75 @@
+<!doctype html>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<html>
+  <head>
+    <title>Rent-A-Genie</title>
+  </head>
+  <body>
+    <main>
+      <div id="header">
+        <div id="logo-title-container">
+          <img id="header-img" src="https://img.etsystatic.com/il/6557d3/1182922768/il_fullxfull.1182922768_inc9.jpg"/>
+          <header id="title">
+            <h1>Rent-A-Genie</h1>
+          </header>
+        </div>
+        <nav id="nav-bar">
+          <div class="nav-link-container" id="features"><a class="nav-link" href="#details">Features</a>
+          </div>
+          <div class="nav-link-container" id="video-link"><a class="nav-link" href="#video">Video</a>
+          </div>
+          <div class="nav-link-container" id="pricing"><a class="nav-link" href="#form">Pricing</a>
+          </div>
+        </nav>
+      </div>
+      <div id="details">
+        <img id="genie-image" src="https://art.ngfiles.com/images/428000/428836_geogant_genie.jpg?f1464540284"/>
+        <div id="feature-list">
+          <p class="list-item">3 Whole Wishes Per Lifetime!</p>
+          <p class="list-item">Unlimited Rental Timeframe!</p>
+          <p class="list-item">Your Dreams CAN Come True!*</p>
+        </div>
+      </div>
+
+      <div id="video-container">
+        <p id="video-title">You Have No Limits Except Your Own Imagination*</p>
+        <iframe src="https://www.youtube.com/embed/V_aGSmgnPrc?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video" ></iframe>
+      </div>
+
+      <form action="post" target="https://www.freecodecamp.com/email-submit" id="form" action="post">
+        <p>Book your very own Genie!<br> Pricing available upon request:</p>
+        <input id="email" 
+               type="email" 
+               name="email"
+               placeholder="your_email@provider" 
+               required
+               />
+        <input id="submit"
+               value="Let's Get Started!"
+               type="submit"             
+               name="submit">
+        </input>
+      </form>
+      <footer>
+        <div id="left-footer">
+          <div id="limits">* Please be aware of <a href="https://youtu.be/OczOUJw1Z7k?t=5">Genie limitations</a>
+          </div>
+          <div id="copyright">
+            Copyright 2021, Rent-A-Genie<br>
+            RIP Mr. Williams
+          </div>
+        </div>
+        <div id="company-info">
+          <div class="company-info" id="#"><a href="#privacy">Privacy</a>
+          </div>
+          <div class="company-info" id="#"><a href="#terms">Terms</a>
+          </div>
+          <div class="company-info" id="#"><a href="#contat">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
